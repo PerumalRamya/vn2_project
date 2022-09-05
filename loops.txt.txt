@@ -1,4 +1,5 @@
 
+
 #progrm to find the sum of all elements of list using while loop.
 y=[11,22,33,44,55]
 sum=0
@@ -29,3 +30,37 @@ for i in range(1,101):
         count+=1
         if(count==25):
             break
+
+#Removing duplicates from the given list.
+x=[1,2,3,1,2,4,3,4]
+y=[]
+for i in x:
+    if i not in y:
+        y.append(i)
+print(y)
+
+#find char count
+x="Ramya"
+for i in x:
+    print(i)'''
+#capital letters
+x="RAMYa"
+count1=0
+count2=0
+for i in x:
+    if(i.isupper())==True:
+        count1+=1
+    elif(i.islower())==True:
+        count2+=1
+print(count1)
+print(count2)
+
+#reverse a string
+
+x="Punith"
+reversed=""
+for i in x:
+    reversed=i+reversed
+    print(reversed)
+print(reversed)
+
